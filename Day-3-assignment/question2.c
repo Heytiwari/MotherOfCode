@@ -11,6 +11,8 @@ main(){
 
     ans = (x * x) - (2 * x * y) + (y * y);
 
-    printf("Answer: %.2f", ans);
+    // printf("Answer: %.2f", ans);
+
+    printf("(%.2f - %.2f)^2 = %.2f", x, y, ans);
 
 }
