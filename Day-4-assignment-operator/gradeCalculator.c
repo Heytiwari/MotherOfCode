@@ -52,5 +52,4 @@ int main() {
 
     printf("Student Total Subject Percentage: %.2f%%\n", percentage);
 
-    return 0;
 }
