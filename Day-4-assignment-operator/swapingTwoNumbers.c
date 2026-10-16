@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 main(){
-    float a, b;
+    int a, b;
 
     printf("Enter First Number: ");
-    scanf("%f", &a);
+    scanf("%d", &a);
 
     printf("Enter Second Number: ");
-    scanf("%f", &b);
+    scanf("%d", &b);
 
-    printf("Before Swapping: ");
+    printf("Before Swapping: \n");
 
-    printf("%.2f", a);
-    printf("%.2f", b);
+    printf("A : %d\n", a);
+    printf("B : %d\n", b);
 
     a = a ^ b;
     b = a ^ b;
     a = a ^ b;
 
-    printf("After Swapping: ");
+    printf("After Swapping: \n");
 
-    printf("%.2f", a);
-    printf("%.2f", b);
+    printf("A : %d\n", a);
+    printf("B : %d", b);
 }
