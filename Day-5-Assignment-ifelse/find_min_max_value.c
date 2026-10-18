@@ -22,7 +22,7 @@
 
 #include <stdio.h>
 
-int main() {
+main() {
     int a, b;
 
     printf("Enter First Number: ");

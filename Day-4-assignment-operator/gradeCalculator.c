@@ -10,7 +10,7 @@ int main() {
     float totalSubjectNumber, percentage;
 
     printf("Enter Student Name: ");
-    fgets(studentName, sizeof(studentName), stdin);
+    scanf("%s", &studentName);
 
     printf("Enter Subject Name 1: ");
     scanf("%29s", subjectName1);
