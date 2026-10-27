@@ -1,3 +1,5 @@
+// Write a C program to reverse a given number using a while loop.
+
 #include <stdio.h>
 
 main(){
