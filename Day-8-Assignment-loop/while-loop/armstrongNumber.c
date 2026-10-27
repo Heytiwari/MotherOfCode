@@ -2,10 +2,12 @@
 
 main(){
     int num;
-    int sum = 0;
-
+    
     printf("Enter Any Number: ");
     scanf("%d", &num);
+    
+    int orgNum = num;
+    int sum = 0;
 
     while (num != 0){
         int rem = num % 10;
@@ -14,7 +16,7 @@ main(){
 
         num = num / 10;
     }
-    (num == sum)
-                ?printf("%d is Armstrong Number", num)
-                :printf("%d is not Armstrong Number", num);
+    (orgNum == sum)
+                ?printf("%d is Armstrong Number", orgNum)
+                :printf("%d is not Armstrong Number", orgNum);
 }
